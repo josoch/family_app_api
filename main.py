@@ -10,12 +10,12 @@ def read_root():
 
 @app.get("/income")
 def read_income() -> List[dict]:
-    with open("data.json", "r") as f:
+    with open("api.json", "r") as f:
         data = json.load(f)
     return data["income"]
 
 @app.get("/expense")
 def read_expense() -> List[dict]:
-    with open("data.json", "r") as f:
+    with open("api.json", "r") as f:
         data = json.load(f)
     return data["expense"]

@@ -29,3 +29,15 @@ def read_expense() -> List[dict]:
     with open("api.json", "r") as f:
         data = json.load(f)
     return data["expense"]
+
+@app.get("/budget")
+def read_user() -> List[dict]:
+    with open("api.json", "r") as f:
+        data = json.load(f)
+    return data["budget"]
+
+@app.get("/user")
+def read_user() -> List[dict]:
+    with open("api.json", "r") as f:
+        data = json.load(f)
+    return data["user"]

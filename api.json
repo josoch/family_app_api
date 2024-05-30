@@ -75,5 +75,75 @@
         "currency": "naira",
         "manager": "mother"
         }
-    ]
+    ],
+    "budget":[
+        {
+          "id": 1,
+          "date": "01-04-2024",
+          "type": "Home Keep",
+          "txn": "Market Expenses",
+          "amt": 25000,
+          "currency": "naira",
+          "manager": "mother"
+        },
+        {
+          "id": 2,
+          "date": "01-04-2024",
+          "type": "Health Care",
+          "txn": "Health Care Expenses",
+          "amt": 4850,
+          "currency": "naira",
+          "manager": "mother"
+        },
+        {
+          "id": 3,
+          "date": "01-04-2024",
+          "type": "Repair & Maintenance",
+          "txn": "Monthly repair budget",
+          "amt": 5000,
+          "currency": "naira",
+          "manager": "mother"
+        },
+        {
+          "id": 4,
+          "date": "01-04-2024",
+          "type": "Child Allowance",
+          "txn": "Children Allowances",
+          "amt": 20000,
+          "currency": "naira",
+          "manager": "mother"
+        }
+      ],
+      "user":[
+        {
+          "id": 1,
+          "name": "Ocholi Joseph",
+          "email": "joseph@familyapp.com",
+          "password": "password",
+          "type": "staff",
+          "created_date":"24-05-2024"
+        },
+        {
+          "id": 2,
+          "name": "David Emmanuel Achonu",
+          "email": "achonudavidh@gmaile.com",
+          "password": "password123",
+          "type": "registed",
+          "created_date":"24-05-2024"
+        },
+        {
+          "id": 3,
+          "name": "Agbene Ojile",
+          "email": "ojile234@gmaile.com",
+          "password": "_password123",
+          "type": "registered"
+        },
+        {
+          "id": 4,
+          "name": "Ameh Enemona",
+          "email": "amehe@familyapp.com",
+          "password": "mypassword",
+          "type": "staff"
+        }
+      ]
 }
